@@ -6,15 +6,12 @@ class CokeContainer extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            isShaking: true,
-            positionLeft: "100px",
-            positionRight: "100px"
+            isShaking: true
         }
     }
 
     componentDidMount() {
         this.startShaking()
-        // console.log(Math.random(5000))
     }
 
     startShaking = () => {

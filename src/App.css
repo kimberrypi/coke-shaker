@@ -5,6 +5,18 @@
   color: #ffffff;
 }
 
+.button {
+  background-color: #920000;
+  color: #ffffff;
+  position: fixed;
+  bottom: 250px;
+}
+
+.button:hover {
+  background-color: #9f9f9f;
+  color: #ffffff;
+}
+
 .title, .subtitle {
   color: #ffffff;
   text-align: center;
