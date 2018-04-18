@@ -14,7 +14,7 @@ const StopButton = ({positionLeft, positionRight, stopShaking, moveButton}) => {
             <button className="button is-coke is-large" style={buttonStyles} 
             onClick={stopShaking}
             >
-            Stop Shaking
+            Stop!
         </button>
         )
 }
